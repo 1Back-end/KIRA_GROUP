@@ -4,17 +4,17 @@
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4 text-white ">KIRA GROUP</h4>
-                        <a class="btn btn-link text-white text-decoration-none" href="">À propos de nous</a>
-                        <a class="btn btn-link text-white text-decoration-none" href="">Contactez-nous</a>
+                        <a class="btn btn-link text-white text-decoration-none" href="apropos.php">À propos de nous</a>
+                        <a class="btn btn-link text-white text-decoration-none" href="contact.php">Contactez-nous</a>
                         <a class="btn btn-link text-white text-decoration-none" href="">Politique de confidentialité</a>
                         <a class="btn btn-link text-white text-decoration-none" href="">Termes et conditions</a>
 
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4 text-white">Contact</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Rue, Yaoundé, Cameroun</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+237 6 72 52 80 80</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>kiragroup@gmail.com</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Carrefour Vogt, Yaoundé, Cameroun</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+237 657281427/670237084</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>kiragroupsarl@gmail.com</p>
 
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social text-white" href=""><i class="fab fa-twitter"></i></a>

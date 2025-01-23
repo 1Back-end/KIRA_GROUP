@@ -42,12 +42,12 @@
             <div class="col-lg-4 col-sm-12">
                 <div class="card shadow-sm p-3 border-0 h-100">
                     <div class="d-flex align-items-center">
-                        <div class="icon-container bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3">
+                        <div class="icon-container text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; background-color: #215191;">
                             <i class="bi bi-geo-alt-fill fs-3"></i>
                         </div>
                         <div>
                             <h5 class="mb-1">Adresse</h5>
-                            <p class="mb-0">123 Rue de l'Entreprise, Yaoundé, Cameroun</p>
+                            <p class="mb-0">Carrefour Vogt, Yaoundé, Cameroun</p>
                         </div>
                     </div>
                 </div>
@@ -57,12 +57,12 @@
             <div class="col-lg-4 col-sm-12">
                 <div class="card shadow-sm p-3 border-0 h-100">
                     <div class="d-flex align-items-center">
-                        <div class="icon-container bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3">
+                        <div class="icon-container text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; background-color: #215191;">
                             <i class="bi bi-envelope-fill fs-3"></i>
                         </div>
                         <div>
                             <h5 class="mb-1">Email</h5>
-                            <p class="mb-0">contact@votredomaine.com</p>
+                            <p class="mb-0">kiragroupsarl@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -72,12 +72,12 @@
             <div class="col-lg-4 col-sm-12">
                 <div class="card shadow-sm p-3 border-0 h-100">
                     <div class="d-flex align-items-center">
-                        <div class="icon-container bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3">
+                        <div class="icon-container text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; background-color: #215191;">
                             <i class="bi bi-telephone-fill fs-3"></i>
                         </div>
                         <div>
                             <h5 class="mb-1">Téléphone</h5>
-                            <p class="mb-0">+237 6 12 34 56 78</p>
+                            <p class="mb-0">+237 657281427/670237084</p>
                         </div>
                     </div>
                 </div>
@@ -89,8 +89,10 @@
 
 <div class="contact-info py-5">
     <div class="container">
+        <div class="row">
         <div class="col-lg-6 col-sm-12 mb-3">
-
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15923.36434801444!2d11.482276587158196!3d3.844269199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x108bcfc1e804f9ad%3A0x2387c339259f4044!2sCarrefour%20VOGT!5e0!3m2!1sfr!2sde!4v1737624844849!5m2!1sfr!2sde" width="100%" height="650px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
         </div>
 
 
@@ -98,20 +100,24 @@
             <div class="card shadow-sm p-3 border-0">
                 <form action="" method="post">
                     <div class="mb-3">
-                        <label for="name" class="form-label">Nom et Prénom *</label>
-                        <input type="text" class="form-control form-control-lg" id="name" name="name" required>
+                    <h5>Formulaire de contact</h5>
+                    <p>Envoyez-nous un message et nous vous répondrons rapidement.</p>
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label">Email *</label>
-                        <input type="email" class="form-control form-control-lg" id="email" name="email" required>
+                        <label for="name" class="form-label">Nom et Prénom <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control form-control-lg shadow-none py-3" id="name" name="name" required>
                     </div>
                     <div class="mb-3">
-                        <label for="phone" class="form-label">Téléphone *</label>
-                        <input type="tel" class="form-control form-control-lg" id="phone" name="phone" required>
+                        <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control form-control-lg shadow-none py-3" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3 w-100">
+                        <label for="phone" class="form-label">Téléphone <span class="text-danger">*</span></label><br>
+                        <input type="tel" class="form-control form-control-lg shadow-none py-3" id="phone" name="phone" required>
                     </div>
                     <div class="mb-3">
-                        <label for="message" class="form-label">Message *</label>
-                        <textarea class="form-control form-control-lg" id="message" name="message" rows="5" required></textarea>
+                        <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                        <textarea class="form-control form-control-lg shadow-none" id="message" name="message" rows="5" required></textarea>
                     </div>
                     <div class="mb-3">
                         <button type="submit" class="btn btn-primary btn-block btn-lg btn-responsive">Envoyer</button>
@@ -120,7 +126,7 @@
             </div>
         </div>
 
-
+        </div>
     </div>
 
 </div>
@@ -136,5 +142,23 @@
             AOS.init();
         });
     </script>
+   <script>
+    const phoneInput = document.querySelector("#phone");
+    const iti = intlTelInput(phoneInput, {
+        initialCountry: "CM", // Cameroun par défaut
+        preferredCountries: ["CM", "FR", "US"], // Ajoutez d'autres pays préférés si nécessaire
+        utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.js", // Pour les fonctionnalités avancées
+        separateDialCode: true, // Affiche le code du pays séparément
+    });
+
+    // Validation du numéro avant l'envoi (optionnel)
+    phoneInput.form.addEventListener("submit", function (e) {
+        if (!iti.isValidNumber()) {
+            e.preventDefault(); // Empêche l'envoi du formulaire si le numéro est invalide
+            alert("Veuillez entrer un numéro de téléphone valide.");
+        }
+    });
+</script>
+
 </body>
 </html>

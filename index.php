@@ -16,15 +16,18 @@
             <div class="col-lg-7 col-sm-12 mb-3 d-flex flex-column justify-content-between" data-aos="fade-right" data-aos-duration="1000">
                 <div>
                     <h3 class="text-uppercase mb-3">
-                        Innover, Suivre, Sécuriser.
+                         Bienvenue chez KIRA GROUP
                     </h3>
-                    <p>
-                        Des solutions de suivi GPS précises pour vos véhicules et flottes, couplées à une formation spécialisée pour une gestion optimale. Assurez la sécurité et l'efficacité de vos opérations avec nos technologies innovantes.
-                    </p>
-                </div>
-                <div>
-                    <a href="#services" class="btn_services mt-4" data-aos="zoom-in" data-aos-duration="800">Nos Services</a>
-                </div>
+                    <p class="lead text-muted mb-2">
+                    Des solutions de suivi GPS précises pour vos véhicules et flottes, couplées à une formation spécialisée pour une gestion optimale. Assurez la sécurité et l'efficacité de vos opérations avec nos technologies innovantes.
+                </p>
+                <p class="lead text-muted mb-2">
+                    Profitez de notre assistance dédiée et d'outils performants pour garantir une supervision en temps réel, réduire vos coûts et améliorer vos performances globales. Ensemble, construisons un avenir connecté et sécurisé.
+                </p>
+                <a href="#services" class="btn btn-primary btn-lg mt-3" data-aos="zoom-in" data-aos-duration="1200">
+                    Découvrir nos services
+                </a>
+            </div>
             </div>
             <div class="col-lg-5 col-sm-12 mb-3" data-aos="fade-left" data-aos-duration="1000">
                 <img src="assets/images/img4.png" alt="Illustration Hero" class="img-fluid" data-aos="zoom-in" data-aos-duration="1200">
@@ -34,10 +37,6 @@
 </section>
 
 
-
-
-
-
 <section class="services-section py-5">
     <div class="container">
         <h2 class="text-center mb-4" data-aos="fade-up" data-aos-duration="1000">Nos services phares</h2>
@@ -45,13 +44,15 @@
             <!-- Card 1 - Tracking -->
             <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 <div class="card shadow h-100 border-0 py-3">
-                    <div class="card-body text-center bg-primary text-white">
-                        <i class="fas fa-map-marker-alt fa-3x mb-3"></i>
+                    <div class="card-body text-center">
+                        <div class="icon-container text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 80px; height: 80px; background-color: #215191;">
+                            <i class="fas fa-map-marker-alt fa-2x"></i>
+                        </div>
                         <h5 class="card-title">Tracking</h5>
                         <p class="card-text">Suivi GPS précis pour véhicules et flottes.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                        <a href="services_tracking.php" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -59,13 +60,15 @@
             <!-- Card 2 - Vidéosurveillance -->
             <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                 <div class="card shadow h-100 border-0 py-3">
-                    <div class="card-body text-center bg-secondary text-white">
-                        <i class="fas fa-video fa-3x mb-3"></i>
+                    <div class="card-body text-center">
+                        <div class="icon-container text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 80px; height: 80px; background-color: #215191;">
+                            <i class="fas fa-video fa-2x"></i>
+                        </div>
                         <h5 class="card-title">Vidéosurveillance</h5>
                         <p class="card-text">Installation et gestion de systèmes de sécurité.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                        <a href="services_videosurveillance.php" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -73,13 +76,15 @@
             <!-- Card 3 - Formation -->
             <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                 <div class="card shadow h-100 border-0 py-3">
-                    <div class="card-body text-center bg-success text-white">
-                        <i class="fas fa-chalkboard-teacher fa-3x mb-3"></i>
+                    <div class="card-body text-center">
+                        <div class="icon-container text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 80px; height: 80px; background-color: #215191;">
+                            <i class="fas fa-chalkboard-teacher fa-2x"></i>
+                        </div>
                         <h5 class="card-title">Formation</h5>
                         <p class="card-text">Apprenez les bases et les outils avancés du tracking.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                        <a href="services_formation.php" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -87,19 +92,22 @@
             <!-- Card 4 - Consultation -->
             <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                 <div class="card shadow h-100 border-0 py-3">
-                    <div class="card-body text-center bg-danger text-white">
-                        <i class="fas fa-users-cog fa-3x mb-3"></i>
+                    <div class="card-body text-center">
+                        <div class="icon-container text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 80px; height: 80px; background-color: #215191;">
+                            <i class="fas fa-users-cog fa-2x"></i>
+                        </div>
                         <h5 class="card-title">Consultation</h5>
                         <p class="card-text">Expertise en solutions de tracking automobile.</p>
                     </div>
                     <div class="card-footer text-center">
-                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                        <a href="services_consultation.php" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
 
 
@@ -158,7 +166,7 @@
                 Que vous soyez une petite entreprise ou un grand groupe, nous proposons des solutions personnalisées qui répondront à vos besoins spécifiques. 
                
                 </p>
-                <a href="pages/contact.php" class="btn btn-primary" data-aos="zoom-in" data-aos-duration="1200">Nous contacter</a>
+                <a href="contact.php" class="btn btn-primary" data-aos="zoom-in" data-aos-duration="1200">Nous contacter</a>
             </div>
         </div>
     </div>
