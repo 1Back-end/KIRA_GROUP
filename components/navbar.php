@@ -23,7 +23,7 @@
         </li>
          <!-- Services -->
          <li class="nav-item">
-          <a class="nav-link mx-2 text-decoration-none" href="#">Services</a>
+          <a class="nav-link mx-2 text-decoration-none" href="actualites.php">Actualités</a>
         </li>
         <!-- Contact -->
         <li class="nav-item">

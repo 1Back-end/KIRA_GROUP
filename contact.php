@@ -17,7 +17,7 @@
     <div class="container mt-5">
         <div class="row align-items-center">
             <!-- Description -->
-            <div class="col-lg-6 col-sm-12 mb-3">
+            <div class="col-lg-6 col-sm-12 mb-3" data-aos="fade-right" data-aos-duration="1000">
                 <h2 class="mb-3">Contactez-nous</h2>
                 <p class="mb-3">
                     Vous avez des questions ou des préoccupations concernant la surveillance de véhicules, le tracking GPS, ou tout autre service lié à la gestion de flottes ? 

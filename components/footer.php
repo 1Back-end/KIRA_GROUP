@@ -1,8 +1,8 @@
 <!-- Footer Start -->
-<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5" data-wow-delay="0.1s">
             <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-lg-3 col-md-6">
+                <div class="row g-2">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4 text-white ">KIRA GROUP</h4>
                         <a class="btn btn-link text-white text-decoration-none" href="apropos.php">À propos de nous</a>
                         <a class="btn btn-link text-white text-decoration-none" href="contact.php">Contactez-nous</a>
@@ -10,7 +10,7 @@
                         <a class="btn btn-link text-white text-decoration-none" href="">Termes et conditions</a>
 
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4 text-white">Contact</h4>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Carrefour Vogt, Yaoundé, Cameroun</p>
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+237 657281427/670237084</p>
@@ -23,14 +23,14 @@
                             <a class="btn btn-outline-light btn-social text-white" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4 text-white">Horaires</h4>
                         <h5 class="text-light fw-normal">7 Jours sur 7</h5>
                         <h5 class="text-light fw-normal">24h / 24</h5>
  
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4 text-white">Newsletter</h4>
                         <p>Abonnez-vous à notre newsletter pour recevoir actus, offres et nouveautés  directement par mail.</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">

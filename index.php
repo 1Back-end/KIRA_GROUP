@@ -18,13 +18,13 @@
                     <h3 class="text-uppercase mb-3">
                          Bienvenue chez KIRA GROUP
                     </h3>
-                    <p class="lead text-muted mb-2">
+                    <p class="lead text-muted mb-3">
                     Des solutions de suivi GPS précises pour vos véhicules et flottes, couplées à une formation spécialisée pour une gestion optimale. Assurez la sécurité et l'efficacité de vos opérations avec nos technologies innovantes.
                 </p>
-                <p class="lead text-muted mb-2">
+                <p class="lead text-muted mb-3">
                     Profitez de notre assistance dédiée et d'outils performants pour garantir une supervision en temps réel, réduire vos coûts et améliorer vos performances globales. Ensemble, construisons un avenir connecté et sécurisé.
                 </p>
-                <a href="#services" class="btn btn-primary btn-lg mt-3" data-aos="zoom-in" data-aos-duration="1200">
+                <a href="#services" class="btn-primary btn-lg mt-3 mb-3" data-aos="zoom-in" data-aos-duration="1200">
                     Découvrir nos services
                 </a>
             </div>
@@ -49,9 +49,9 @@
                             <i class="fas fa-map-marker-alt fa-2x"></i>
                         </div>
                         <h5 class="card-title">Tracking</h5>
-                        <p class="card-text">Suivi GPS précis pour véhicules et flottes.</p>
+                        <p class="card-text text-truncate">Suivi GPS précis pour véhicules et flottes.</p>
                     </div>
-                    <div class="card-footer text-center">
+                    <div class="text-center">
                         <a href="services_tracking.php" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
@@ -65,9 +65,9 @@
                             <i class="fas fa-video fa-2x"></i>
                         </div>
                         <h5 class="card-title">Vidéosurveillance</h5>
-                        <p class="card-text">Installation et gestion de systèmes de sécurité.</p>
+                        <p class="card-text text-truncate">Installation et gestion de systèmes de sécurité.</p>
                     </div>
-                    <div class="card-footer text-center">
+                    <div class="text-center">
                         <a href="services_videosurveillance.php" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
@@ -81,9 +81,9 @@
                             <i class="fas fa-chalkboard-teacher fa-2x"></i>
                         </div>
                         <h5 class="card-title">Formation</h5>
-                        <p class="card-text">Apprenez les bases et les outils avancés du tracking.</p>
+                        <p class="card-text text-truncate">Apprenez les bases et les outils avancés du tracking.</p>
                     </div>
-                    <div class="card-footer text-center">
+                    <div class="text-center">
                         <a href="services_formation.php" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
@@ -97,9 +97,9 @@
                             <i class="fas fa-users-cog fa-2x"></i>
                         </div>
                         <h5 class="card-title">Consultation</h5>
-                        <p class="card-text">Expertise en solutions de tracking automobile.</p>
+                        <p class="card-text text-truncate">Expertise en solutions de tracking automobile.</p>
                     </div>
-                    <div class="card-footer text-center">
+                    <div class="text-center">
                         <a href="services_consultation.php" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
             <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                 <div class="testimonial-card text-center p-4 shadow">
                     <!-- <img src="assets/images/client2.jpg" alt="Client 2" class="img-fluid rounded-circle mb-3" style="width: 100px; height: 100px;"> -->
-                    <p class="testimonial-text">"Les formations qu'ils proposent m'ont permis de maîtriser le suivi GPS de manière approfondie. J'ai pu améliorer la sécurité de mes véhicules et réduire les coûts opérationnels."</p>
+                    <p class="testimonial-text">"Grâce aux formations qu'ils proposent, j'ai acquis une maîtrise approfondie du suivi GPS, ce qui m'a permis d'optimiser la sécurité de mes véhicules et de diminuer les coûts opérationnels."</p>
                     <h5 class="client-name">Sophie Martin</h5>
                     <!-- <p class="client-role">Responsable sécurité, Entreprise XYZ</p> -->
                 </div>
@@ -159,7 +159,7 @@
             <!-- Section du contenu -->
             <div class="col-lg-6 col-sm-12 mb-3">
                 <h3 class="cta-title mb-3" data-aos="fade-up" data-aos-duration="1000">
-                    Prêt à sécuriser votre avenir ?
+                 Prêt à sécuriser vos bien maintenant ?
                 </h3>
                 <p class="cta-subtext mb-4" data-aos="fade-up" data-aos-duration="1000">
                 Contactez-nous dès aujourd'hui pour découvrir comment nos solutions peuvent transformer votre gestion de flottes et améliorer votre sécurité. 
