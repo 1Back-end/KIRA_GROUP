@@ -41,7 +41,7 @@
         <div class="row align-items-center mb-5">
             <div class="col-lg-6 col-sm-12" data-aos="fade-right" data-aos-duration="1000">
                 <h4 class="fw-bold mb-3 text-uppercase">Tracking classique <span class="text-primary">(SYC 1)</span></h4>
-                <p>Le tracking classique permet une géolocalisation en temps réel, la coupure moteur, un historique détaillé des trajets, le geofencing, divers rapports et notifications.</p>
+                <p>Le tracking classique permet de suivre les véhicules en temps réel grâce à la géolocalisation. Il offre la coupure moteur, un historique détaillé des trajets et du geofencing pour sécuriser les zones. Des rapports et notifications vous aident à analyser les données et à prendre des décisions éclairées.</p>
             </div>
             <div class="col-lg-6 col-sm-12" data-aos="fade-left" data-aos-duration="1000">
                 <img src="assets/images/classic-tracking-gps.png" alt="Tracking Classique" class="img-fluid rounded">
@@ -52,7 +52,7 @@
         <div class="row align-items-center mb-5">
             <div class="col-lg-6 col-sm-12 order-lg-2" data-aos="fade-left" data-aos-duration="1000">
                 <h4 class="fw-bold mb-3 text-uppercase">Tracking DASHCAM <span class="text-primary">(SYC 2)</span></h4>
-                <p>Avec le tracking DASHCAM, profitez de la vidéosurveillance, des caméras embarquées, de la gestion des trajets (ADAS), de la gestion des conducteurs (DSM), et bien plus encore.</p>
+                <p>Avec le tracking DASHCAM, bénéficiez de vidéosurveillance en temps réel grâce aux caméras embarquées. Vous pourrez aussi gérer les trajets via ADAS, surveiller les comportements des conducteurs avec DSM, et accéder à une multitude d’autres fonctionnalités pour une sécurité renforcée.</p>
             </div>
             <div class="col-lg-6 col-sm-12 order-lg-1" data-aos="fade-right" data-aos-duration="1000">
                 <img src="assets/images/dashcam-tracking.png" alt="Tracking DASHCAM" class="img-fluid rounded">
@@ -63,7 +63,7 @@
         <div class="row align-items-center mb-5">
             <div class="col-lg-6 col-sm-12" data-aos="fade-right" data-aos-duration="1000">
                 <h4 class="fw-bold mb-3 text-uppercase">Tracking avec gestion Carburant <span class="text-primary">(Tracking Your Fuel - TYF)</span></h4>
-                <p>Intégrez une sonde carburant pour un suivi précis de la consommation, tout en bénéficiant de fonctionnalités comme la géolocalisation, la coupure moteur, le geofencing, et divers rapports.</p>
+                <p>Intégrez une sonde carburant pour un suivi précis de la consommation, tout en profitant de fonctionnalités telles que la géolocalisation, la coupure moteur, le geofencing, et des rapports détaillés pour une gestion optimale de vos véhicules. Cela vous permet de réduire les coûts opérationnels tout en améliorant la sécurité et l'efficacité de votre flotte.</p>
             </div>
             <div class="col-lg-6 col-sm-12" data-aos="fade-left" data-aos-duration="1000">
                 <img src="assets/images/fuel-management-tracking.png" alt="Tracking avec gestion Carburant" class="img-fluid rounded">
@@ -74,10 +74,10 @@
         <div class="row align-items-center mb-5">
             <div class="col-lg-6 col-sm-12 order-lg-2" data-aos="fade-left" data-aos-duration="1000">
                 <h4 class="fw-bold mb-3 text-uppercase">Tracking Full Option <span class="text-primary">(TFO)</span></h4>
-                <p>La solution complète : géolocalisation, vidéosurveillance, gestion carburant avec sonde, jusqu'à 4 caméras embarquées, geofencing, rapports, notifications et coupure moteur.</p>
+                <p>La solution complète : géolocalisation, vidéosurveillance, gestion carburant avec sonde, jusqu'à 4 caméras embarquées, geofencing, rapports, notifications et coupure moteur pour une gestion optimale et sécurisée de votre flotte. Suivez vos véhicules en temps réel et prenez des décisions éclairées pour améliorer la performance et la sécurité.</p>
             </div>
             <div class="col-lg-6 col-sm-12 order-lg-1" data-aos="fade-right" data-aos-duration="1000">
-                <img src="assets/images/full-option-tracking.png" alt="Tracking Full Option" class="img-fluid rounded">
+                <img src="assets/images/fuel-management-tracking1.png" alt="Tracking Full Option" class="img-fluid rounded">
             </div>
         </div>
 
@@ -85,7 +85,7 @@
         <div class="row align-items-center mb-5">
             <div class="col-lg-6 col-sm-12" data-aos="fade-right" data-aos-duration="1000">
                 <h4 class="fw-bold mb-3 text-uppercase">Système d'Alarme et Verrouillage de Portière</h4>
-                <p>Un système avancé pour sécuriser vos véhicules : alarme intégrée et verrouillage centralisé des portières pour protéger efficacement contre les intrusions.</p>
+                <p>Un système avancé pour sécuriser vos véhicules : alarme intégrée et verrouillage centralisé des portières pour une protection efficace contre les intrusions et garantir la sécurité de vos biens. Profitez d'une tranquillité d'esprit totale avec une surveillance constante et une réponse rapide aux menaces. Ce système assure une protection optimale contre tout acte malveillant.</p>
             </div>
             <div class="col-lg-6 col-sm-12" data-aos="fade-left" data-aos-duration="1000">
                 <img src="assets/images/door-lock-alarm.png" alt="Système d'Alarme" class="img-fluid rounded">
@@ -96,10 +96,11 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-sm-12 order-lg-2" data-aos="fade-left" data-aos-duration="1000">
                 <h4 class="fw-bold mb-3 text-uppercase">Système d’Anti Braquage <span class="text-primary">(SAB)</span></h4>
-                <p>Le SAB est conçu pour éviter les détournements et les braquages, offrant une sécurité accrue pour vos véhicules et vos passagers.</p>
+                <p>Le SAB est conçu pour prévenir les détournements et les braquages, offrant ainsi une sécurité accrue pour vos véhicules et vos passagers, tout en garantissant une surveillance constante et une gestion proactive des risques. Grâce à des fonctionnalités avancées, vous bénéficiez d'un contrôle total sur vos véhicules, assurant la tranquillité d'esprit à tout moment.
+                </p>
             </div>
             <div class="col-lg-6 col-sm-12 order-lg-1" data-aos="fade-right" data-aos-duration="1000">
-                <img src="assets/images/anti-theft-system.png" alt="Système d’Anti Braquage" class="img-fluid rounded">
+                <img src="assets/images/img11.png" alt="Système d’Anti Braquage" class="img-fluid rounded">
             </div>
         </div>
     </div>

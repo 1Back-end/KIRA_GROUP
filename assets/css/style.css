@@ -796,6 +796,7 @@ textarea {
     .home-security-section p,
     .training-section p {
         font-size: 0.9rem;
+        text-align: justify;
     }
 
     .security-section img,
